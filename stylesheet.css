@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(4, 96, 96);
+}
+.recipes-container{
+    background-color: rgb(209, 209, 131);
+    border-radius: 15px;
+    margin: 30px;
+    width:auto;
+    height: 50vh;
+   
+}
+#title{
+    text-align: center;
+    border: 6px ridge black;
+    border-radius: 15px;
+    border-style:  inset;
+    background-color: rgb(156, 59, 59);
+}
+.recipes-menu{
+    display: flex;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: brown;
+
+}
+.based{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 9px;
+    margin: 0px 20px 0px 20px;
+}
+.recipes{
+    list-style: none;
+}
+li a{
+    color: rgb(111, 85, 17);
+    
+}
